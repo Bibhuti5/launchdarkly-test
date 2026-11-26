@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: launchdarkly-spring-boot-demo
+
+launchdarkly:
+  sdk-key: ${LAUNCHDARKLY_SDK_KEY:sdk-placeholder-key}
+  offline: ${LAUNCHDARKLY_OFFLINE:false}
+  flags:
+    new-api-response: ${LAUNCHDARKLY_FLAG_KEY:enable-new-api-response}

@@ -1,0 +1,10 @@
+target/
+.mvn/
+*.jar
+*.war
+*.ear
+.env
+.idea/
+*.iml
+.vscode/
+.DS_Store
